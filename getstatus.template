@@ -1,0 +1,10 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ser="http://www.quantiguous.com/services">
+   <soap:Header/>
+   <soap:Body>
+      <ser:getStatus>
+         <ser:version>1</ser:version>
+         <ser:customerID>{{CUSTOMER_ID}}</ser:customerID>
+         <ser:requestReferenceNo>QGAPI1</ser:requestReferenceNo>
+      </ser:getStatus>
+   </soap:Body>
+</soap:Envelope>
