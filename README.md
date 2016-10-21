@@ -24,6 +24,8 @@ Samples in various languages to connect to banks that provide public API's
 
 To execute
 ```
+gem install liquid
+gem install faraday
 irb get_status.rb
 ```
 
