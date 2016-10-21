@@ -1,7 +1,6 @@
 require 'liquid'
 require 'securerandom'
 require 'faraday'
-require 'csv'
 
 URL = 'https://sky.yesbank.in:443/app/live/ssl/fundsTransferByCustomerService'
 
